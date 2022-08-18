@@ -1,0 +1,100 @@
+{
+    "ingredients": [
+        {
+            "id": 0,
+            "name": "Melodía de bayas mixtas",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 1,
+            "name": "Sopa tailandesa de coliflor al curry rojo",
+            "rating": 2,
+            "isCooking": true
+        },
+        {
+            "id": 2,
+            "name": "Berenjena especiada crujiente",
+            "rating": 3,
+            "isCooking": true
+        },
+        {
+            "id": 3,
+            "name": "Sopa de calabaza con un toque",
+            "rating": 2,
+            "isCooking": true
+        },
+        {
+            "id": 4,
+            "name": "Ensalada de tofu carbonizado, maíz y espárragos",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 5,
+            "name": "Pollo al pesto cremoso en una sartén y ñoquis",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 6,
+            "name": "Pastel de pollo cremoso",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 7,
+            "name": "Pollo y papas a la francesa",
+            "rating": 2,
+            "isCooking": false
+        },
+        {
+            "id": 8,
+            "name": "Estofado de ternera y verduras",
+            "rating": 1,
+            "isCooking": true
+        },
+        {
+            "id": 9,
+            "name": "Lasaña de calabaza, espinacas y lentejas",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 10,
+            "name": "Soothing chicken soup",
+            "rating": 4,
+            "isCooking": true
+        },
+        {
+            "id": 11,
+            "name": "Sopa de pollo calmante",
+            "rating": 3,
+            "isCooking": true
+        },
+        {
+            "id": 12,
+            "name": "Enchiladas rapidas de carne",
+            "rating": 2,
+            "isCooking": true
+        },
+        {
+            "id": 13,
+            "name": "Pollo al disco con champignones",
+            "rating": 3,
+            "isCooking": true
+        },
+        {
+            "id": 14,
+            "name": "Horneado de brócoli con queso",
+            "rating": 3,
+            "isCooking": true
+        },
+        {
+            "id": 15,
+            "name": "Ragú de pierna de cordero con pappardelle",
+            "rating": 2,
+            "isCooking": true
+        }
+    ]
+}

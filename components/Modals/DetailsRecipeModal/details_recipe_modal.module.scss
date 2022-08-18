@@ -1,0 +1,112 @@
+.details_recipe_modal {
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  max-width: 464px;
+  height: 100vh;
+  z-index: 3;
+  transition: all .5s;
+  background-color: #fff;
+  border-right: 1px solid rgb(230, 235, 241);
+  transform: translate(100%);
+  transition: transform .5s ease-in-out 0s;
+  padding: 24px;
+  overflow-x: scroll;
+}
+
+.details_recipe_modal--show {
+  transform: translate(0);
+}
+
+.details_recipe_modal__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.details_recipe_modal__ingredientes {
+  margin-bottom: 24px;
+}
+
+.details_recipe_modal__ingredientes_text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.details_recipe_modal__ingredientes_list {
+  margin: 0;
+  padding: 0;
+}
+
+.details_recipe_modal__ingredientes_item {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #424243;
+}
+
+.details_recipe_modal__preparacion {
+  margin-bottom: 24px;
+}
+
+.details_recipe_modal__preparacion_text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.details_recipe_modal__preparacion_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #424243;
+}
+
+.details_recipe_modal__review {}
+
+.details_recipe_modal__review_text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.details_recipe_modal__review_star {
+  display: flex;
+  gap: 5px;
+  margin: 12px 0;
+}
+
+.details_recipe_modal__review_icon {
+  fill: #FFD19A;
+}
+
+.details_recipe_modal__cooking {
+  margin-bottom: 24px;
+}
+
+.details_recipe_modal__cooking_text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.details_recipe_modal__button_content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details_recipe_modal__button {
+  padding: 12px 32px;
+  border: 0;
+  background-color: #0C969D;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
