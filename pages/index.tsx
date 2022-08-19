@@ -20,6 +20,7 @@ const LandingPage: NextPage = () => {
     visible: false,
     rating: 0,
     name: '',
+    isCooking: false,
     ingredients: [''],
     preparation: ''
   })

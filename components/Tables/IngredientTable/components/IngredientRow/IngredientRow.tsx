@@ -20,7 +20,7 @@ interface RecipeProps {
   rating: number;
   ingredients: string[]
   preparation: string;
-  setShowDetailsRecipe: (value: setShowDetailsRecipeProps) => void;
+  setShowDetailsRecipe: any;
 }
 
 const IngredientRow = ({ id, isCooking, name, rating, ingredients, preparation, setShowDetailsRecipe }: RecipeProps) => {
