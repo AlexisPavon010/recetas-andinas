@@ -4,9 +4,18 @@ import styles from 'components/Tables/IngredientTable/ingredient_table.module.sc
 
 import IngredientRow from "components/Tables/IngredientTable/components/IngredientRow";
 
+interface setShowDetailsRecipeProps {
+  visible: boolean;
+  name: string;
+  rating: number;
+  isCooking: boolean;
+  ingredients: string[];
+  preparation: string;
+}
+
 interface IngredientTableProps {
   items: Ingredient[];
-  setShowDetailsRecipe: (value: boolean) => void;
+  setShowDetailsRecipe: (value: setShowDetailsRecipeProps) => void;
 }
 
 const IngredientTable = ({ items, setShowDetailsRecipe }: IngredientTableProps) => {

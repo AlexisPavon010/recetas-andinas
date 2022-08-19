@@ -6,64 +6,70 @@ import styles from 'components/Modals/DetailsRecipeModal/details_recipe_modal.mo
 import Overlay from 'components/Utils/Overlay';
 import StarReview from 'components/Utils/StarReview';
 
+interface setShowDetailsRecipeProps {
+  visible: boolean;
+  rating: number
+  name: string;
+  isCooking: boolean;
+  ingredients: string[];
+  preparation: string;
+}
+
 interface DetailsRecipeProps {
-  showDetailsRecipe: boolean;
+  showDetailsRecipe: setShowDetailsRecipeProps;
   setShowEditRecipe: (value: boolean) => void;
-  setShowDetailsRecipe: (value: boolean) => void;
+  setShowDetailsRecipe: (value: setShowDetailsRecipeProps) => void;
 }
 
 const DetailsRecipeModal = ({ showDetailsRecipe, setShowDetailsRecipe, setShowEditRecipe }: DetailsRecipeProps) => {
+  const { name, rating, ingredients, preparation, isCooking } = showDetailsRecipe;
+
   return (
     <>
       <Overlay
-        onClick={() => setShowDetailsRecipe(false)}
-        active={showDetailsRecipe}
+        onClick={() => setShowDetailsRecipe({ ...showDetailsRecipe, visible: false })}
+        active={showDetailsRecipe.visible}
       />
       <div
         className={classNames(
           styles.details_recipe_modal,
-          showDetailsRecipe && styles['details_recipe_modal--show'],
+          showDetailsRecipe.visible && styles['details_recipe_modal--show'],
         )}>
         <div className={styles.details_recipe_modal__header}>
-          <h3>Melodía de bayas mixtas</h3>
+          <h3>{name}</h3>
 
           <CloseIcon
-            onClick={() => setShowDetailsRecipe(false)}
+            onClick={() => setShowDetailsRecipe({ ...showDetailsRecipe, visible: false })}
           />
         </div>
         <div className={styles.details_recipe_modal__ingredientes}>
           <p className={styles.details_recipe_modal__ingredientes_text}>Ingredientes</p>
           <ul className={styles.details_recipe_modal__ingredientes_list}>
-            <li className={styles.details_recipe_modal__ingredientes_item}>1/4 taza de semillas de chía negra</li>
-            <li className={styles.details_recipe_modal__ingredientes_item}>2 1/2 tazas de leche de almendras</li>
-            <li className={styles.details_recipe_modal__ingredientes_item}>2 naranjas</li>
-            <li className={styles.details_recipe_modal__ingredientes_item}>1 1/2 tazas de harina integral simple</li>
-            <li className={styles.details_recipe_modal__ingredientes_item}>2 cucharaditas de polvo de hornear</li>
-            <li className={styles.details_recipe_modal__ingredientes_item}>1 taza de arándanos frescos o arándanos congelados</li>
+            {ingredients?.map((i, _) => (
+              <li key={_} className={styles.details_recipe_modal__ingredientes_item}>{i}</li>
+            ))}
           </ul>
         </div>
         <div className={styles.details_recipe_modal__preparacion}>
           <p className={styles.details_recipe_modal__preparacion_text}>Preparación</p>
           <p className={styles.details_recipe_modal__preparacion_description}>
-            Combine las semillas de chía, la leche de almendras y 1 cucharada de jarabe de arce en una jarra grande. Deje reposar durante 3-4 minutos o hasta que las semillas se hinchen. Mientras tanto, ralla finamente 1 cucharadita de cáscara de 1 naranja. Cortar los gajos de ambas naranjas (ver Notas).<br />
-            Combine la harina, el polvo para hornear, la cáscara de naranja y la mitad de las nueces en un tazón mediano. Batir la mezcla de leche hasta que quede suave. Agregue los arándanos.<br />
-            Rociar una sartén antiadherente con aceite y calentar a fuego medio. Cocine al ras 1/2 taza de medidas de la mezcla, en tandas, durante 2 minutos por cada lado o hasta que estén doradas para hacer 8 panqueques. Repartir entre platos. Cubra con los gajos de naranja, la ricota, el almíbar restante y las nueces.
+            {preparation}
           </p>
         </div>
         <div className={styles.details_recipe_modal__review}>
           <p className={styles.details_recipe_modal__review_text}>Reseñas</p>
           <div className={styles.details_recipe_modal__review_star}>
-            <StarReview amount={4} />
+            <StarReview amount={rating} />
           </div>
         </div>
         <div className={styles.details_recipe_modal__cooking}>
           <p className={styles.details_recipe_modal__cooking_text}>Cocinado antes</p>
 
-          <SwitchField />
+          <SwitchField checked={isCooking} />
         </div>
         <div className={styles.details_recipe_modal__button_content}>
           <button onClick={() => {
-            setShowDetailsRecipe(false)
+            setShowDetailsRecipe({...showDetailsRecipe, visible: false })
             setShowEditRecipe(true)
           }
           } className={styles.details_recipe_modal__button}>

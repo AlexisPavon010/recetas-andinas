@@ -4,20 +4,31 @@ import styles from 'components/Tables/IngredientTable/components/IngredientRow/i
 import SwitchField from 'components/Fields/SwitchField';
 import StarReview from 'components/Utils/StarReview';
 
+interface setShowDetailsRecipeProps {
+  visible: boolean;
+  rating: number
+  name: string;
+  isCooking: boolean;
+  ingredients: string[];
+  preparation: string;
+}
+
 interface RecipeProps {
   id: number;
   isCooking: boolean;
   name: string;
   rating: number;
-  setShowDetailsRecipe: (boolean: boolean) => void;
+  ingredients: string[]
+  preparation: string;
+  setShowDetailsRecipe: (value: setShowDetailsRecipeProps) => void;
 }
 
-const IngredientRow = ({ id, isCooking, name, rating, setShowDetailsRecipe }: RecipeProps) => {
-  const [checked, setChecked] = useState(isCooking)
+const IngredientRow = ({ id, isCooking, name, rating, ingredients, preparation, setShowDetailsRecipe }: RecipeProps) => {
+  const [checked, setChecked] = useState<boolean>(isCooking)
 
   return (
     <tr className={styles.ingredient_row}>
-      <td className={styles.ingredient_row__cell} onClick={() => setShowDetailsRecipe(true)}>{name}</td>
+      <td className={styles.ingredient_row__cell} onClick={() => setShowDetailsRecipe({ visible: true, name, isCooking, rating, ingredients, preparation })}>{name}</td>
       <td className={styles.ingredient_row__cell}>
         <StarReview amount={rating} />
       </td>

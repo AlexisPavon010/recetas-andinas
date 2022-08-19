@@ -16,7 +16,13 @@ import compose from 'utils/compose'
 
 const LandingPage: NextPage = () => {
   const [showAddRecipe, setShowAddRecipe] = useState(false)
-  const [showDetailsRecipe, setShowDetailsRecipe] = useState(false)
+  const [showDetailsRecipe, setShowDetailsRecipe] = useState({
+    visible: false,
+    rating: 0,
+    name: '',
+    ingredients: [''],
+    preparation: ''
+  })
   const [showEditRecipe, setShowEditRecipe] = useState(false)
 
   return (

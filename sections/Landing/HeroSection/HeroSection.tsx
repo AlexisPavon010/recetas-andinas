@@ -9,8 +9,16 @@ import type Ingredient from "types/ingredient";
 import IngredientTable from 'components/Tables/IngredientTable';
 import ChevronDownIcon from 'components/Icons/ChevronDownIcon';
 
+interface setShowDetailsRecipeProps {
+  visible: boolean;
+  name: string;
+  rating: number;
+  ingredients: string[];
+  preparation: string;
+}
+
 interface HeroSectionProps {
-  setShowDetailsRecipe: (value: boolean) => void
+  setShowDetailsRecipe: (value: any) => void
 }
 
 const HeroSection = ({ setShowDetailsRecipe }: HeroSectionProps) => {
