@@ -4,97 +4,313 @@
             "id": 0,
             "name": "Melodía de bayas mixtas",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "1/4 taza de semillas de chía negra",
+                "2 1/2 tazas de leche de almendras",
+                "2 naranjas",
+                "1 1/2 tazas de harina integral simple",
+                "2 cucharaditas de polvo de hornear",
+                "1 taza de arándanos frescos o arándanos congelados"
+            ],
+            "preparation": "Combine las semillas de chía, la leche de almendras y 1 cucharada de jarabe de arce en una jarra grande. Deje reposar durante 3-4 minutos o hasta que las semillas se hinchen. Mientras tanto, ralla finamente 1 cucharadita de cáscara de 1 naranja. Cortar los gajos de ambas naranjas (ver Notas). Combine la harina, el polvo para hornear, la cáscara de naranja y la mitad de las nueces en un tazón mediano. Batir la mezcla de leche hasta que quede suave. Agregue los arándanos. Rociar una sartén antiadherente con aceite y calentar a fuego medio. Cocine al ras 1/2 taza de medidas de la mezcla, en tandas, durante 2 minutos por cada lado o hasta que estén doradas para hacer 8 panqueques. Repartir entre platos. Cubra con los gajos de naranja, la ricota, el almíbar restante y las nueces."
         },
         {
             "id": 1,
             "name": "Sopa tailandesa de coliflor al curry rojo",
             "rating": 2,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "2 cucharadas de aceite de oliva extra virgen",
+                "1 cabeza mediana de coliflor, picada en floretes pequeños (aproximadamente 6 tazas)",
+                "1 cebolla mediana picada",
+                "1 diente de ajo picado",
+                "2 cucharadas de pasta de curry rojo tailandés",
+                "1 cucharadita de cúrcuma molida",
+                "1 cucharadita de jengibre molido",
+                "¼ de cucharadita de sal kosher",
+                "1 ¾ tazas de caldo de verduras bajo en sodio",
+                "1 lata (13.6 onzas líquidas) de leche de coco ligera"
+            ],
+            "preparation": "Calentar el aceite en una cacerola grande a fuego medio-alto. Agregar la coliflor, la cebolla y el ajo; cocinar, revolviendo frecuentemente, durante 10 minutos. Agregar pasta de curry, la cúrcuma, el jengibre y la sal. Cocinar por 2 minutos. Agregar el caldo y la leche de coco; Llevar la mezcla a ebullición. Reducir el fuego a bajo. Tapar; cocinar por 10 minutos o hasta que la coliflor esté tierna. Retirar del fuego. Dejar enfriar un poco. Usar una licuadora de inmersión para hacer puré la sopa. Si no tienes licuadora de inmersión, la sopa se puede hacer puré en lotes en una licuadora."
         },
         {
             "id": 2,
             "name": "Berenjena especiada crujiente",
             "rating": 3,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "800 gramos de berenjenas",
+                "2 dientes de ajo",
+                "1 cebolla mediana picada",
+                "1 cucharadita de zumaque",
+                "1 cucharadita de ras el hanou",
+                "1 cucharadita de garam masala",
+                "75 gramos de mantequilla",
+                "¼ Sal",
+                "Zumo de lima (opcional)",
+                "Cilantro picado (opcional)"
+            ],
+            "preparation": "Cortar las berenjenas sin pelar en dados de aproximadamente un centímetro, y hacer lo mismo con la cebolla pelada. Poner la mantequilla en una olla no demasiado grande y fundirla a fuego lento hasta que coja un color dorado. Añadir las berenjenas, la cebola, las especias, un poco de sal y dejar cocinar, con el fuego al mínimo y tapado, una media hora, dándole unas vueltas cada cinco minutos. Cuando casi esté listo (cinco minutos antes), añadir el ajo picado. Cuando esté hecho, dejar enfriar un poco, aplastar con el tenedor hasta que quede una pasta no demasiado homogénea, y servir con lo que queramos como acompañamiento. Se le puede añadir un chorrito de zumo de limón o lima y cilantro picado justo antes de comerlo."
         },
         {
             "id": 3,
             "name": "Sopa de calabaza con un toque",
             "rating": 2,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "600 g de calabaza",
+                "1 puerro grande o dos pequeños",
+                "1 cebolla grande",
+                "2 patatas gallegas",
+                "5 zanahorias medianas",
+                "1 litro de agua o de caldo de verduras o ave",
+                "4 g de curry en polvo",
+                "2 g de nuez moscada en polvo",
+                "¼ Sal"
+            ],
+            "preparation": "Pelamos el puerro y troceamos en dos porque sólo vamos a emplear la parte blanca, si es demasiado pequeño o delgado, emplearemos dos. Lo echamos a una cazuela grande, con dos cucharadas de aceite de oliva virgen extra, ya veréis que no hace falta mucho aceite para que se poche. Mientras tanto lavamos y pelamos la calabaza, las zanahorias y las patatas. Cortamos las patatas en trozos pequeños y las añadimos a la misma cazuela con el puerro y la cebolla, espolvoreamos con sal fina."
         },
         {
             "id": 4,
             "name": "Ensalada de tofu carbonizado, maíz y espárragos",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "300 g de tofu firme",
+                "2 manojos de espárragos",
+                "2 cucharaditas de cáscara de limón finamente rallada",
+                "1 cucharadita de orégano seco",
+                "2 cucharadas de jugo de limón",
+                "2 cucharaditas de aceite",
+                "2 mazorcas de maíz grandes",
+                "1 cucharada de pesto de albahaca",
+                "250 g de tomates cherryl",
+                "2 cucharadas de queso duro vegetariano"
+            ],
+            "preparation": "Rallar finamente la cáscara de limón. Mezcle la cáscara de limón, el orégano, 1 cucharada de jugo de limón y 1 cucharadita de aceite en un tazón pequeño. Y poner el tofu cortado en rodajas gruesas. Calienta la sartén. Ponga el tofu, el maíz y los espárragos con aceite. Freír el maíz por ambos lados durante 8 minutos. Tofu y espárragos, aproximadamente 1-2 minutos, por cada lado. Los espárragos deben estar blandos. Mientras tanto, en un tazón pequeño, mezcle el pesto, el jugo de limón restante y el aceite. Mezclar todo. Mazorcas de maíz terminadas cortadas en capas de 1,5 cm de espesor. Poner en un bol con los tomates (cortarlos por la mitad) y los espárragos. Servir en platos, poner encima el tofu y aplej con salsa pesto. Y finalmente, espolvorear con queso."
         },
         {
             "id": 5,
             "name": "Pollo al pesto cremoso en una sartén y ñoquis",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "150 grs. ñoquis",
+                "3/4 taza crema de leche",
+                "3 cucharaditas. pesto con maní, en mi recetario",
+                "1 cucharaditas. pasta de ajo en mi recetario",
+                "1 cucharadas de aceite de oliva",
+                "2 cucharaditas de aceite",
+                "4 rodajas tomate",
+                "1 cucharada de aceite de oliva",
+                "250 g de tomates cherryl",
+                "2 cucharadas de queso parmesano"
+            ],
+            "preparation": "Calienta una cacerola con una cucharada de aceite de oliva extra virgen a fuego moderado a fuerte. Agrega el pollo, sazona con sal y pimienta, y espera hasta que se dore un poco. Coloca el pollo en un plato. Calienta en la cacerola otra cucharada de aceite de oliva y dos cucharadas de mantequilla. Añade los champiñones, la zanahoria, el apio y el laurel. Sazona con la sal y la pimienta. Rehoga durante 5 minutos, incorpora harina en forma de lluvia y cocina durante 2 minutos. Agrega 2 ½ tazas de caldo revolviendo, vuelva a incorporar el pollo y cocina a fuego lento para que la salsa espese."
         },
         {
             "id": 6,
             "name": "Pastel de pollo cremoso",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "500 grs suprema de pollo",
+                "200 grs harina con levadura",
+                "2 huevos",
+                "1 cebolla mediana",
+                "1/2 morrón rojo",
+                "5 dientes ajo",
+                "170 cc agua tibia",
+                "200 grs mozzarella",
+                "1 cucharadas de Orégano curry pimienta a gusto",
+                "2 cucharadas de queso parmesano"
+            ],
+            "preparation": "Calienta una cacerola con una cucharada de aceite de oliva extra virgen a fuego moderado a fuerte. Agrega el pollo, sazona con sal y pimienta, y espera hasta que se dore un poco. Coloca el pollo en un plato. Calienta en la cacerola otra cucharada de aceite de oliva y dos cucharadas de mantequilla. Añade los champiñones, la zanahoria, el apio y el laurel. Sazona con la sal y la pimienta. Rehoga durante 5 minutos, incorpora harina en forma de lluvia y cocina durante 2 minutos. Agrega 2 ½ tazas de caldo revolviendo,Colocar en un molde la primera capa de hojaldre y echar el relleno. Cubrir con la otra capa de hojaldre. Sellar el exceso en los bordes del molde para darle la forma de pastel. Hacer perforaciones en la capa de arriba para que el vapor salga"
         },
         {
             "id": 7,
             "name": "Pollo y papas a la francesa",
             "rating": 2,
-            "isCooking": false
+            "isCooking": false,
+            "ingredients": [
+                "500 grs suprema de pollo",
+                "200 grs harina con levadura",
+                "2 huevos",
+                "1 cebolla mediana",
+                "1/2 morrón rojo",
+                "5 dientes ajo",
+                "170 cc agua tibia",
+                "200 grs mozzarella",
+                "1 cucharadas de Orégano curry pimienta a gusto",
+                "2 cucharadas de queso parmesano"
+            ],
+            "preparation": "Calienta una cacerola con una cucharada de aceite de oliva extra virgen a fuego moderado a fuerte. Agrega el pollo, sazona con sal y pimienta, y espera hasta que se dore un poco. Coloca el pollo en un plato. Calienta en la cacerola otra cucharada de aceite de oliva y dos cucharadas de mantequilla. Añade los champiñones, la zanahoria, el apio y el laurel. Sazona con la sal y la pimienta. Rehoga durante 5 minutos, incorpora harina en forma de lluvia y cocina durante 2 minutos. Agrega 2 ½ tazas de caldo revolviendo,Colocar en un molde la primera capa de hojaldre y echar el relleno. Cubrir con la otra capa de hojaldre. Sellar el exceso en los bordes del molde para darle la forma de pastel. Hacer perforaciones en la capa de arriba para que el vapor salga"
         },
         {
             "id": 8,
             "name": "Estofado de ternera y verduras",
             "rating": 1,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "600 g de carne de ternera para guisar cortada en trozos",
+                "3 zanahorias",
+                "1 cebolla",
+                "250 g de champiñones (yo he usado portobello)",
+                "120 g de guisantes",
+                "1/2 vaso de vino tinto",
+                "250 ml de caldo de carne o pollo*",
+                "1 cucharada de carne de pimiento choricero",
+                "2 dientes de ajo",
+                "1 hora de laurel",
+                "1 cucharada de harina",
+                "aceite de oliva virgen extra",
+                "pimienta negra",
+                "sal"
+            ],
+            "preparation": "Comenzamos por marcar los trozos de ternera, que previamente los habrás salpimentado. Para ello vierte un chorro de aceite de oliva virgen extra en una cazuela u olla y, a fuego fuerte, dora los trozos de carne hasta que tomen color. Reserva. En el mismo recipiente, a fuego bajo-medio, pocha la cebolla cortada en brunoise y el ajo bien picadito. Añade un pelín de sal para ayudar a que la cebolla sude y, si es necesario, agrega un poco más de aceite. En este punto puedes incorporar también la hoja de laurel para que vaya soltando su aroma. Cuando la cebolla comience a transparentar incorpora las zanahorias, que previamente habrás lavado, pelado y troceado. Añade la cucharada de harina, dale unas vueltecitas y cocínala durante 2 o 3 minutos para que pierda el sabor a crudo. Añade también la carne de pimiento choricero. Agrega los champiñones limpios y cortados en trozos. Cocínalos un poco para que los sabores se integren. Seguidamente incorpora la ternera, los guisantes, el caldo y el vino tinto." 
         },
         {
             "id": 9,
             "name": "Lasaña de calabaza, espinacas y lentejas",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "500 grs suprema de pollo",
+                "900 g de calabaza Naranka Gold, pelada y cortada en cubos de 1,5 cm",
+                "500g de ricotta",
+                "1 cebolla mediana",
+                "375g paquete de lasaña fresca",
+                "Buena pizca de nuez moscada molida",
+                "1/2 taza de caldo de verduras",
+                "Botella de 690g Passata de tomate italiano Coles Brand",
+                "1 cucharada de aceite de oliva",
+                "2 latas de 400g de lentejas marrones, enjuagadas, escurridas",
+                "1 1/2 tazas de Coles Brand Australian Tasty Cheddar rallado"
+            ],
+            "preparation": "Precaliente el horno a 190C (ventilador forzado a 170C). Engrase una fuente para hornear de 26 cm x 20 cm x 6 cm. (1 cucharada de aceite de oliva) en una cacerola grande a fuego medio. cocinar la cebolla (1 cebolla morena finamente picada) durante 5 minutos o hasta que estén suaves y ligeramente dorados. Añade el ajo (2 dientes de ajo machacados) y cocine por 1 min. Agregar calabaza (900 g de calabaza Naranka Gold, pelada y cortada en cubos de 1,5 cm), lentejas (2 latas de 400g de lentejas marrones, enjuagadas, escurridas) y existencias (1/2 taza de caldo de verduras). Reserva 1 taza del passata (Botella de 690g Passata de tomate italiano Coles Brand) y agregue el resto del passata a la mezcla de calabaza. Tapar y llevar a ebullición. Reduzca un poco el fuego y cocine tapado durante 20 minutos o hasta que la calabaza esté tierna y la mezcla espese. Transfiera a un tazón grande para enfriar un poco, luego refrigere hasta que esté frío."
         },
         {
             "id": 10,
             "name": "Soothing chicken soup",
             "rating": 4,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "6 a 8 tazas de agua",
+                "3 patatas medianas",
+                "1 zanahoria mediana",
+                "1 trozo de calabaza equivalente en tamaño a las patatas",
+                "1 cebollino",
+                "1 cebolla mediana",
+                "4 hojas de hierbabuena",
+                "1 guindilla opcional",
+                "1 pimiento mediano",
+                "1 tallo de puerro",
+                "Hojas de perejil",
+                "Hojas de cilantro",
+                "1 tallo y hojas de apio",
+                "1/2 cucharadita de orégano en polvo",
+                "2 hojas de laurel",
+                "Sal al gusto",
+                "Pimienta al gusto",
+                "Fideos para sopa"
+            ],
+            "preparation": "En una olla grande pon a hervir las piezas de pollo en aproximadamente 2 litros de agua. Deja que hierva durante unos 15 minutos. Durante este tiempo debes estar pendiente de retirarle constantemente la espuma que se acumula en la superficie. Agrega la cebolla, pimiento y ají previamente picados en julianas y el puerro en rueditas delgadas. Seguidamente ponle sal, pimienta, el orégano y las hojas de laurel. Estas medidas son subjetivas y dependen de tu gusto. Comienza con poca cantidad y puedes aumentarla posteriormente. Luego de que hierva un rato, agrega la calabaza picada en trozos de 3 o 4 centímetros. Haz lo mismo con la zanahoria. Espero unos minutos y pon las patatas, también picadas (y peladas)."
         },
         {
             "id": 11,
             "name": "Sopa de pollo calmante",
             "rating": 3,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "500 grs suprema de pollo",
+                "200 grs harina con levadura",
+                "2 huevos",
+                "1 cebolla mediana",
+                "1/2 morrón rojo",
+                "5 dientes ajo",
+                "170 cc agua tibia",
+                "200 grs mozzarella",
+                "1 cucharadas de Orégano curry pimienta a gusto",
+                "2 cucharadas de queso parmesano"
+            ],
+            "preparation": "Calienta una cacerola con una cucharada de aceite de oliva extra virgen a fuego moderado a fuerte. Agrega el pollo, sazona con sal y pimienta, y espera hasta que se dore un poco. Coloca el pollo en un plato. Calienta en la cacerola otra cucharada de aceite de oliva y dos cucharadas de mantequilla. Añade los champiñones, la zanahoria, el apio y el laurel. Sazona con la sal y la pimienta. Rehoga durante 5 minutos, incorpora harina en forma de lluvia y cocina durante 2 minutos. Agrega 2 ½ tazas de caldo revolviendo,Colocar en un molde la primera capa de hojaldre y echar el relleno. Cubrir con la otra capa de hojaldre. Sellar el exceso en los bordes del molde para darle la forma de pastel. Hacer perforaciones en la capa de arriba para que el vapor salga"
         },
         {
             "id": 12,
             "name": "Enchiladas rapidas de carne",
             "rating": 2,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "500 grs carne picada",
+                "1/4 de repollo",
+                "1 tomate",
+                "1 limón",
+                "Sal",
+                "Pimienta",
+                "4 tazas de harina de maíz",
+                "1 cucharadas de aceite de oliva",
+                "1 cucharadas de Orégano curry pimienta a gusto",
+                "6 gr de queso queso parmesano"
+            ],
+            "preparation": "Cocer la carne con sal y pimienta. Freír la tortilla. Cuando la carne esté cocida y seca colócala sobre la tortilla frita. Lava y raya el repollo en tiras muy finas, pásalo por agua caliente con sal. Coloca un poco de repollo sobre la carne, encima una rodaja grande y fina de tomate, y sobre éste queso rayado. Rocíalo con un poquito de sal y limón. Buen provecho."
         },
         {
             "id": 13,
             "name": "Pollo al disco con champignones",
             "rating": 3,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "500 grs suprema de pollo",
+                "200 grs harina con levadura",
+                "2 huevos",
+                "1 cebolla mediana",
+                "1/2 morrón rojo",
+                "5 dientes ajo",
+                "170 cc agua tibia",
+                "200 grs mozzarella",
+                "1 cucharadas de Orégano curry pimienta a gusto",
+                "2 cucharadas de queso parmesano"
+            ],
+            "preparation": "Calienta una cacerola con una cucharada de aceite de oliva extra virgen a fuego moderado a fuerte. Agrega el pollo, sazona con sal y pimienta, y espera hasta que se dore un poco. Coloca el pollo en un plato. Calienta en la cacerola otra cucharada de aceite de oliva y dos cucharadas de mantequilla. Añade los champiñones, la zanahoria, el apio y el laurel. Sazona con la sal y la pimienta. Rehoga durante 5 minutos, incorpora harina en forma de lluvia y cocina durante 2 minutos. Agrega 2 ½ tazas de caldo revolviendo,Colocar en un molde la primera capa de hojaldre y echar el relleno. Cubrir con la otra capa de hojaldre. Sellar el exceso en los bordes del molde para darle la forma de pastel. Hacer perforaciones en la capa de arriba para que el vapor salga"
         },
         {
             "id": 14,
             "name": "Horneado de brócoli con queso",
             "rating": 3,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "8 tallos de brócoli",
+                "½ cucharada de sal",
+                "2 tiras de bacon",
+                "1/3 de harina",
+                "5 huevos",
+                "½ taza de nata de cocinar",
+                "1 taza de leche",
+                "1 cucharadita de pimienta negra molida",
+                "2 cucharadas de mostaza",
+                "200 gramos de queso rallado parmesano"
+            ],
+            "preparation": "Empezamos a preparar esta exquisita receta de brócoli al horno con queso. Coge una cazuela, con 3 litros de agua, pon la media cucharada de sal y deja que llegue a ebullición. Pon los 8 tallos de brócoli en el agua hirviendo durante unos 5 minutos, hasta que esté tierno. A continuación, escurre y enjuaga con agua fría para que se quede en la textura deseada. Coge las 2 tiras de bacon, trocea y saltea en una sartén a fuego lento, hasta que quede dorado pero no demasiado hecho y crujiente. Cuando esté hecho, ponlo sobre un plato con un trozo de papel para que se absorba la grasa, y deja que repose durante un rato. Mientras, puedes empezar a precalentar el horno a unos 220 grados. Coge un molde para el horneado que sea transparente para ver bien la cocción y engrasa con aceite o mantequilla, según prefieras."
         },
         {
             "id": 15,
             "name": "Ragú de pierna de cordero con pappardelle",
             "rating": 2,
-            "isCooking": true
+            "isCooking": true,
+            "ingredients": [
+                "20 g de queso parmesano",
+                "100 g de cebolla en trozos",
+                "2 dientes de ajo",
+                "30 g de aceite de oliva",
+                "400 g de carne de cordero en trozos, sin nervios",
+                "600 g de tomate triturado en conserva",
+                "2 cucharaditas de sal",
+                "1 pellizco de pimienta recién molida",
+                "1 cucharada de azúcar",
+                "360 g de pappardelle al huevo"
+            ],
+            "preparation": "Comenzamos preparando la carne. Retiramos posibles trozos de grasa que puede tener y la cortamos en dados de unos 2-3 cm. En una cazuela grande calentamos un chorrito de aceite de oliva. Cuando el aceite está caliente incorporamos la carne troceada. Doramos la carne por todos lados a fuego medio alto para sellarla. Añadimos la cebolla que previamente habremos cortado en daditos. Cocinamos con la carne 7-8 minutos, hasta que comience a ablandarse. Salpimentamos y regamos con el vino tinto y cocinamos hasta que se haya evaporado. Añadimos la salsa de tomate y el caldo de carne. Removemos bien para integrar todos los líquidos con la carne. Tapamos la cazuela dejando una pequeña ranura abierta a modo de chimenea. Cocinamos la carne a fuego medio bajo durante 3 horas. Cada cierto tiempo comprobaremos que el caldo es suficiente y removeremos para asegurarnos que no se haya pegado al fondo de la cazuela. Una vez lista la salsa apagamos el fuego y nos ponemos con los pappardelle nido."
         }
     ]
 }
